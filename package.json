@@ -1,0 +1,15 @@
+{
+  "name": "react-workshop-doodle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm run build-frontend && pnpm run start-backend",
+    "build-frontend": "cd frontend && pnpm run build",
+    "start-backend": "cd backend && pnpm start",
+    "start-frontend": "cd frontend && pnpm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -18,7 +18,7 @@ const port = process.env.PORT || 3000;
 const apiBasePath = "/apis";
 
 app.get(`${apiBasePath}/users`, (req, res) => {
-	console.log("Hello there")
+	console.log("Request recived")
 	res.send(users);
 })
 
